@@ -4,4 +4,4 @@ node_js:
 jobs:
   include:
     - stage: deploy_frontend
-    script: ./deploy/frontend.sh
+      script: ./deploy/frontend.sh
